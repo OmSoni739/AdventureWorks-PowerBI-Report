@@ -16,41 +16,49 @@ A 6-page interactive Power BI report that transforms raw transactional data into
 
 Page 1 — Executive Dashboard
 The top-level summary for leadership decision-making.
-KPIValueTotal Revenue$24.9MTotal Profit$10.5MTotal Orders25.2KReturn Rate2.2%
 Visuals included:
 
-Revenue Trending line chart (Jan 2020 – Jan 2022) with trendline
-Orders by Category horizontal bar (Accessories: 17K, Bikes: 13.9K, Clothing: 7K)
-Top 10 Products matrix — ranked by Orders, Revenue, Return %, and Total Profit
-Monthly KPI cards with MoM delta indicators (Revenue, Orders, Returns)
-Most Ordered & Most Returned product type callout cards
+-> Revenue Trending line chart (Jan 2020 – Jan 2022) with trendline
+-> Orders by Category horizontal bar (Accessories: 17K, Bikes: 13.9K, Clothing: 7K)
+-> Top 10 Products matrix — ranked by Orders, Revenue, Return %, and Total Profit
+-> Monthly KPI cards with MoM delta indicators (Revenue, Orders, Returns)
+-> Most Ordered & Most Returned product type callout cards
 
 
 Page 2 — Geographic Map
-Bubble map showing revenue concentration by country across 6 markets:
-United States · Canada · United Kingdom · France · Germany · Australia
-Includes continent-level slicer (Europe / North America / Pacific) for regional drill-down.
+-> Bubble map showing revenue concentration by country across 6 markets:
+-> United States · Canada · United Kingdom · France · Germany · Australia
+-> Includes continent-level slicer (Europe / North America / Pacific) for regional drill-down.
 
 Page 3 — Product Detail Page
 A drill-through page for individual product performance analysis.
 
-Gauge charts — Monthly Orders, Revenue, and Profit vs. target
-Profit Trending area chart (Jul 2021 – Jun 2022)
-Dynamic metric slicer — toggle between Total Orders / Revenue / Profit / Returns / Return %
-Selected product context card (e.g., Road Tire Tube: 213 orders, $1,668 revenue, $1,044 profit this month)
+-> Gauge charts — Monthly Orders, Revenue, and Profit vs. target
+-> Profit Trending area chart (Jul 2021 – Jun 2022)
+-> Dynamic metric slicer — toggle between Total Orders / Revenue / Profit / Returns / Return %
+-> Selected product context card (e.g., Road Tire Tube: 213 orders, $1,668 revenue, $1,044 profit this month)
 
 
 Page 4 — Customer Detail Page
 Deep-dive into customer behaviour and segmentation.
 
-17.4K unique customers, $1.43K average revenue per customer
-Revenue Per Customer trend line (Jan 2020 – Jan 2022)
-Top 100 Customers table — ranked by Revenue with order count
-Orders by Income Level — High (2.8K) / Average (11.6K) / Low (10.3K)
-Orders by Occupation — Professional, Skilled Manual, Managerial, Clerical, Manual
-Customer highlight card — dynamically updates when a customer is selected from the table
-Insight callout: highest-income customer identified per filtered year
+-> 17.4K unique customers, $1.43K average revenue per customer
+-> Revenue Per Customer trend line (Jan 2020 – Jan 2022)
+-> Top 100 Customers table — ranked by Revenue with order count
+-> Orders by Income Level — High (2.8K) / Average (11.6K) / Low (10.3K)
+-> Orders by Occupation — Professional, Skilled Manual, Managerial, Clerical, Manual
+-> Customer highlight card — dynamically updates when a customer is selected from the table
+-> Insight callout: highest-income customer identified per filtered year
 
 
 Page 5 — Matrix View
 Tabular breakdown of all product categories and subcategories with full metric visibility for power users and analysts.
+
+🔍 Key Business Insights
+
+-> Accessories drive volume — highest order count (17K) but Bikes dominate revenue
+-> Water Bottle – 30 oz is the single most ordered product (3,983 orders)
+-> Sport-100 Helmets show the highest return rates (3.3%+), signaling a potential quality issue
+-> Revenue per customer declined from ~$3K in Jan 2020 to ~$1K by Jan 2022 — worth investigating
+-> United States is the dominant market by order volume
+-> Tires and Tubes = most ordered product type; Shorts = most returned product type
